@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class CoffeeController implements ActionListener {
     private CoffeeModel model;
     private CoffeeView view;
-
+	// test
     public CoffeeController(CoffeeModel model, CoffeeView view) {
 	this.model = model;
 	this.view = view;
