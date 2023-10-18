@@ -6,7 +6,7 @@ public class CoffeeApp {
 
     public static void main(String[] args) {
 	if (!Databasemanager.connect()) {
-	    JOptionPane.showMessageDialog(null, "Keine Verbindung zur Datenbank möglich");
+	    JOptionPane.showMessageDialog(null, "Keine Verbindung zur Datenbank mÃ¶glich");
 	    System.exit(-1);
 	}
 	CoffeeModel model = new CoffeeModel();
